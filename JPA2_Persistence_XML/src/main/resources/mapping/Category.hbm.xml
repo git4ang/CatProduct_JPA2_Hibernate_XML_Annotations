@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//HIBERNATE/Hibernate MAPPING DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ang.neggaw.entities.Category" table="categories_pers_Xml_tb" >
+        <id name="idCategory" type="java.lang.Long">
+            <column name="idCategory" />
+            <generator class="identity" />
+        </id>
+        <property name="categoryName" type="java.lang.String">
+            <column name="categoryName" length="20" not-null="true" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" not-null="false" length="50" />
+        </property>
+        <property name="dateCreation" type="java.util.Date" >
+            <column name="dateCreation" not-null="false" />
+        </property>
+    </class>
+</hibernate-mapping>
