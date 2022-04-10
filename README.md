@@ -1,7 +1,34 @@
 Project programmed in java, based on JPA2 technology and using the JDBC API in different projects such as:
 
-- [ ] Pure JDBC API.
-- [ ] The persistence.xml file with XML.
-- [ ] The persistence.xml file with annotations.
-- [ ] Hibernate ORM with XML
-- [ ] Hibernate ORM with annotations
+- [ ] Pure JDBC API. **(JPA2_JDBC)**
+  - [x] Entities package (Category, Product)
+  - [x] Connections package (MyConnectionDB)
+  - [x] DAO package (interfaces & implementations)
+  - [x] Service package
+  - [ ] Unit Test
+- [ ] The persistence.xml file with XML. **(JPA2_Persistence_XML)**
+  - [x] Entities package (Category, Product)
+  - [x] Resources: (mapping & META-INF)
+  - [x] DAO package (interfaces & implementations)
+  - [x] Service package
+  - [ ] Unit Test
+- [ ] The persistence.xml file with annotations. **(JPA2_Persistence_Annotations)**
+  - [x] Entities package (Category, Product)
+  - [x] Resources: (META-INF)
+  - [x] DAO package (interfaces & implementations)
+  - [x] Service package
+  - [ ] Unit Test
+- [ ] Hibernate ORM with XML. **(JPA2_Hibernate_XML)**
+  - [x] Entities package (Category, Product)
+  - [x] Utils package (HibernateUtil)
+  - [x] Resources: (mapping & utils)
+  - [x] DAO package (interfaces & implementations)
+  - [x] Service package
+  - [ ] Unit Test
+- [x] Hibernate ORM with annotations. **(JPA2_Hibernate_Annotations)**
+  - [x] Entities package (Category, Product)
+  - [x] Utils package (HibernateUtil)
+  - [x] Resources: (utils)
+  - [x] DAO package (interfaces & implementations)
+  - [x] Service package
+  - [x] Unit Test
